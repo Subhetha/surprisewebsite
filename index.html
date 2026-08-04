@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday 💙</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#87CEEB,#dff6ff);
+overflow:hidden;
+}
+
+/* Popup */
+
+.popup{
+
+background:white;
+width:430px;
+padding:30px;
+border-radius:30px;
+text-align:center;
+box-shadow:0 0 35px rgba(0,119,255,.35);
+
+}
+
+/* Gift */
+
+#giftBox{
+
+display:block;
+
+}
+
+#gift{
+
+width:180px;
+cursor:pointer;
+transition:.4s;
+animation:float 2s infinite;
+
+}
+
+#gift:hover{
+
+transform:scale(1.08);
+
+}
+
+#giftBox h1{
+
+color:#0066cc;
+margin:20px 0 10px;
+
+}
+
+#giftBox p{
+
+font-size:20px;
+color:#444;
+
+}
+
+/* Cake */
+
+#cakeBox{
+
+display:none;
+
+}
+
+.cake-frame{
+
+width:250px;
+height:250px;
+margin:20px auto;
+border-radius:50%;
+background:#eefaff;
+border:8px solid #87CEEB;
+display:flex;
+justify-content:center;
+align-items:center;
+box-shadow:0 0 30px #00bfff;
+animation:glow 2s infinite;
+
+}
+
+#cake{
+
+width:170px;
+cursor:pointer;
+transition:.5s;
+
+}
+
+#cake:hover{
+
+transform:scale(1.08);
+
+}
+
+.touch{
+
+font-size:22px;
+color:#0066cc;
+margin-top:20px;
+
+}
+
+@keyframes glow{
+
+50%{
+
+box-shadow:0 0 55px #00bfff;
+
+}
+
+}
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="popup">
+
+<div id="giftBox">
+
+<img src="images/gift.png" id="gift">
+
+<h1>🎁 Happy Birthday 🎁</h1>
+
+<p>Oru Chinna Surprise Kaathukittu Iruku 💙</p>
+
+</div>
+
+
+<div id="cakeBox">
+
+<h1 style="color:#0066cc;">🎉 Happy Birthday 🎉</h1>
+
+<p>Indha Surprise Unakkaga ❤️</p>
+
+<div class="cake-frame">
+
+<img src="images/cake.png" id="cake">
+
+</div>
+
+<p class="touch">🎂 Cake-a Touch Pannu 🎂</p>
+
+</div>
+
+</div>
+
+<script>
+
+const gift=document.getElementById("gift");
+const giftBox=document.getElementById("giftBox");
+const cakeBox=document.getElementById("cakeBox");
+const cake=document.getElementById("cake");
+
+gift.onclick=function(){
+
+giftBox.style.display="none";
+
+cakeBox.style.display="block";
+
+}
+
+cake.onclick=function(){
+
+cake.style.transform="scale(1.2)";
+
+setTimeout(function(){
+
+window.location.href="home.html";
+
+},800);
+
+}
+
+</script>
+
+</body>
+</html>
