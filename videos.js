@@ -88,6 +88,9 @@ const videos = {
         "videos/ammu/ammu12.mp4",
         "videos/ammu/ammu13.mp4"
     ]
+    family: [
+        "videos/ammu/family1.mp4"
+    ]
 
 };
 
