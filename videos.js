@@ -89,7 +89,7 @@ const videos = {
         "videos/ammu/ammu13.mp4"
     ]
     family: [
-        "videos/ammu/family1.mp4"
+        "videos/family/family1.mp4"
     ]
 
 };
