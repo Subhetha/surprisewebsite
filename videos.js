@@ -87,7 +87,8 @@ const videos = {
         "videos/ammu/ammu11.mp4",
         "videos/ammu/ammu12.mp4",
         "videos/ammu/ammu13.mp4"
-    ]
+    ],
+
     family: [
         "videos/family/family1.mp4"
     ]
