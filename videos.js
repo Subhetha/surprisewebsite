@@ -8,38 +8,45 @@ title.innerHTML = folder.charAt(0).toUpperCase() + folder.slice(1) + " Memories 
 const videos = {
 
     amma: [
+        "videos/amma/amma2.mp4",
         "videos/amma/amma1.mp4"
     ],
 
     appa: [
+        "videos/appa/appa2.mp4",
         "videos/appa/appa1.mp4"
     ],
 
     anna1: [
+        "videos/anna1/anna12.mp4",
         "videos/anna1/anna11.mp4"
     ],
 
     anna2: [
+        "videos/anna2/anna22.mp4",
         "videos/anna2/anna21.mp4"
     ],
 
     akka: [
-        "videos/akka/akka1.mp4",
+        "videos/akka/akka5.mp4",
         "videos/akka/akka2.mp4",
         "videos/akka/akka3.mp4",
-        "videos/akka/akka4.mp4"
+        "videos/akka/akka4.mp4",
+        "videos/akka/akka1.mp4"
     ],
 
     anni: [
+        "videos/anni/anni2.mp4",
         "videos/anni/anni1.mp4"
     ],
 
     yokana: [
-        "videos/yokana/yokana1.mp4",
+        "videos/yokana/yokana6.mp4",
         "videos/yokana/yokana2.mp4",
         "videos/yokana/yokana3.mp4",
         "videos/yokana/yokana4.mp4",
-        "videos/yokana/yokana5.mp4"
+        "videos/yokana/yokana5.mp4",
+        "videos/yokana/yokana1.mp4"
     ],
 
     auto: [
@@ -47,8 +54,9 @@ const videos = {
     ],
 
     murugan: [
-        "videos/murugan/murugan1.mp4",
-        "videos/murugan/murugan2.mp4"
+        "videos/murugan/muruga3.mp4",
+        "videos/murugan/muruga2.mp4",
+        "videos/murugan/muruga1.mp4"
     ],
 
     ayyapan: [
@@ -65,6 +73,7 @@ const videos = {
     ],
 
     ammu: [
+        "videos/ammu/ammu14.mp4",
         "videos/ammu/ammu1.mp4",
         "videos/ammu/ammu2.mp4",
         "videos/ammu/ammu3.mp4",
